@@ -74,23 +74,38 @@ Please run this yourself to check for any updates on how to cite
 **runRNAseq**.
 
 ``` r
-print(citation('runRNAseq'), bibtex = TRUE)
-#> Warning in person1(given = given[[i]], family = family[[i]], middle =
-#> middle[[i]], : It is recommended to use 'given' instead of 'middle'.
+print(citation("runRNAseq"), bibtex = TRUE)
 #> To cite package 'runRNAseq' in publications use:
 #> 
-#>   Hernández-González JA (2024). _runRNAseq: Magia con datos de RNASeq
-#>   (One Line, Title Case)_. R package version 0.0.0.9000,
-#>   <https://github.com/JulioAntonio/runRNAseq>.
+#>   JulioAntonio (2024). _RunRNASeq_. doi:10.18129/B9.bioc.runRNAseq
+#>   <https://doi.org/10.18129/B9.bioc.runRNAseq>,
+#>   https://github.com/JulioAntonio/runRNAseq/runRNAseq - R package
+#>   version 0.0.0.9000, <http://www.bioconductor.org/packages/runRNAseq>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
-#>     title = {runRNAseq: Magia con datos de RNASeq (One Line, Title Case)},
-#>     author = {Julio A. Hernández-González},
+#>     title = {RunRNASeq},
+#>     author = {{JulioAntonio}},
 #>     year = {2024},
-#>     note = {R package version 0.0.0.9000},
-#>     url = {https://github.com/JulioAntonio/runRNAseq},
+#>     url = {http://www.bioconductor.org/packages/runRNAseq},
+#>     note = {https://github.com/JulioAntonio/runRNAseq/runRNAseq - R package version 0.0.0.9000},
+#>     doi = {10.18129/B9.bioc.runRNAseq},
+#>   }
+#> 
+#>   JulioAntonio (2024). "RunRNASeq." _bioRxiv_. doi:10.1101/TODO
+#>   <https://doi.org/10.1101/TODO>,
+#>   <https://www.biorxiv.org/content/10.1101/TODO>.
+#> 
+#> A BibTeX entry for LaTeX users is
+#> 
+#>   @Article{,
+#>     title = {RunRNASeq},
+#>     author = {{JulioAntonio}},
+#>     year = {2024},
+#>     journal = {bioRxiv},
+#>     doi = {10.1101/TODO},
+#>     url = {https://www.biorxiv.org/content/10.1101/TODO},
 #>   }
 ```
 
